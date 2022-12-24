@@ -1,0 +1,76 @@
+% THIS TEMPLATE IS A WORK IN PROGRESS
+% Adapted from an original template by faculty at Reykjavik University, Iceland
+
+\documentclass{scrartcl}
+\usepackage{siunitx}
+\usepackage[table,xcdraw]{xcolor}
+\input{File_Setup}
+
+
+\begin{document}
+%Title of the report, name of coworkers and dates (of experiment and of report).
+    \begin{titlepage}
+        \centering
+        \includegraphics[width=0.6\textwidth]{Graphics/images/bracu_logo}\par
+        \vspace{2cm}
+        %%%% COMMENT OUT irrelevant lines among the 3 below
+        {\scshape\LARGE Department of Computer Science \par}  % if you're a CS major
+        {\scshape\LARGE \& \par}                % if have any other major.
+        {\scshape\LARGE Engineering \par}      % the name of the other major.
+        \vspace{1cm}
+        {\scshape\Large CSE422 Project Report\par}
+        %{\large \today\par}
+        \vfill
+
+        %%%% PROJECT TITLE
+        {\huge\bfseries Spam Email Detection\par}
+        \vfill
+
+        %%%% AUTHOR(S)
+        {\Large\itshape ATHAR NOOR MOHAMMAD RAFEE\\ ID: 20101396 \\ LAB SECTION: 09\\ GROUP: 08}\par
+        \vspace{1.5cm}
+
+        \vfill
+        supervised by\par
+        %%%% SUPERVISOR(S)
+        Ms. Afia Fairoose Abedin \& Ms. Sumaiya Akter
+
+
+        \vfill
+% Bottom of the page
+    \end{titlepage}
+
+
+    \newpage
+
+
+
+    \doublespacing
+    \tableofcontents
+    \singlespacing
+
+    \newpage
+
+    \doublespacing
+
+
+    \section{INTRODUCTION}\label{sec:introduction}
+    \input{introduction}
+
+
+    \section{LEARNING DATA}\label{sec:learning-data}
+    \input{learning-data}
+
+
+    \section{DATA PREPROCESSING}\label{sec:data-preprocessing}
+    \input{data-preprocessing}
+
+
+    \section{Experimental Result}\label{sec:experimental-result}
+    \input{experimental-result}
+
+
+    \section{Conclusion}\label{sec:conclusion}
+    \input{conclusion}
+
+\end{document}

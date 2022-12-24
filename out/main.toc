@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{3}{section.1}%
+\contentsline {section}{\numberline {2}LEARNING DATA}{3}{section.2}%
+\contentsline {section}{\numberline {3}DATA PREPROCESSING}{3}{section.3}%
+\contentsline {section}{\numberline {4}Experimental Result}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Results}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Analysis}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusion}{8}{section.5}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
